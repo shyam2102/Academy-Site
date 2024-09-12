@@ -1,0 +1,178 @@
+/* Hero Section Styling */
+.hero {
+    background-image:linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/images/bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  .courses-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  /* Custom styling for the carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; 
+}
+
+/* Move the previous button away from the left */
+.carousel-control-prev {
+  left: -6%; 
+}
+
+/* Move the next button away from the right */
+.carousel-control-next {
+  right: -6%;
+}
+
+/* Optional: Change the color and size of the arrow icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; 
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+
+  /* About Us Section Styling */
+.about-us-section {
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb); 
+    padding: 60px 0;
+  }
+  
+  .about-us-section h2 {
+    color: #343a40;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-section p, 
+  .about-us-section ul {
+    color: #6c757d;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-section ul li::before {
+    content: '•';
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  
+  .about-us-section img {
+    max-width: 100%; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .about-us-section .row {
+      text-align: center; 
+    }
+    .about-us-section img {
+      margin-top: 20px; 
+    }
+  }
+
+  /* Enquiry Section Styles */
+.enquiry-section {
+    background-color: #f8f9fa;
+  }
+  
+  .enquiry-form .form-control,
+  .enquiry-form .form-select {
+    transition: width 0.3s ease;
+  }
+  
+  .enquiry-form .form-control:focus,
+  .enquiry-form .form-select:focus {
+    width: 105%;
+    border-color: #343a40;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.125);
+  }
+  
+  .enquiry-form .form-label {
+    font-weight: bold;
+  }
+  
+  .enquiry-form .btn {
+    width: 100%;
+  }
+  
+  
+
+  /* Info Section Styling */
+  .info-section {
+    background: linear-gradient(135deg, #f1f3f5, #d1d9e0); 
+    padding: 60px 0;
+  }
+  
+  .info-section h2 {
+    color: #343a40;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .info-section p {
+    color: #6c757d;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .info-section i {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .info-section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .info-section a:hover {
+    text-decoration: underline;
+  }
+
+  footer {
+    padding: 2rem 0;
+    font-size: 0.9rem;
+  }
+  
+  footer p {
+    margin: 20px; 
+  }
+  
+  
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  }
+  

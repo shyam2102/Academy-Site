@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workiy Academy</title>
+  <link rel="icon" href="/images/logo.jpg"
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Navbar section -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="/images/logo.jpg" alt="Workiy Logo" style="height: 40px; width: auto; margin-right: 10px;">
+            Workiy Academy
+          </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#enquiry">Enquiry</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#info-section">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero text-center text-white">
+    <div class="container">
+      <h1 style="color:black ; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Welcome to Our Academy</h1>
+      <p style="color: rgba(0, 0, 0, 0.925);">Explore a variety of courses and learn to survive in IT industry.</p>
+      <a href="#courses" class="btn btn-dark mt-4">Explore Courses</a>
+    </div>
+  </section>
+<!-- Courses Section -->
+<section id="courses" class="courses-section py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Courses</h2>
+      
+      <!-- Carousel Wrapper -->
+      <div id="coursesCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel Indicators (Optional) -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#coursesCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#coursesCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+  
+        <!-- Carousel Inner -->
+        <div class="carousel-inner">
+          <!-- First 3 Courses -->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="card">
+                  <img src="/images/mernn.png" class="card-img-top" alt="Course 1">
+                  <div class="card-body">
+                    <h5 class="card-title">MERN Stack</h5>
+                    <p class="card-text">Learn the latest web development technologies and frameworks.</p>
+                    <a href="mern.html"  class="btn btn-dark">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-lg-4 col-md-6">
+                <div class="card">
+                  <img src="/images/java.png" class="card-img-top" alt="Course 2">
+                  <div class="card-body">
+                    <h5 class="card-title">JAVA Stack</h5>
+                    <p class="card-text">Learn the latest web development technologies and frameworks.</p>
+                    <a href="#" class="btn btn-dark">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="card">
+                  <img src="/images/mbapp.jpeg" class="card-img-top" alt="Course 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Mobile App Development</h5>
+                    <p class="card-text">Build mobile applications for Android and iOS using modern tools.</p>
+                    <a href="#" class="btn btn-dark">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Next 3 Courses -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="card">
+                  <img src="/images/python.png" class="card-img-top" alt="Course 4">
+                  <div class="card-body">
+                    <h5 class="card-title">Python Programming</h5>
+                    <p class="card-text">Master Python programming for web, data science, and more.</p>
+                    <a href="#" class="btn btn-dark">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="card">
+                  <img src="/images/cloud.jpeg" class="card-img-top" alt="Course 5">
+                  <div class="card-body">
+                    <h5 class="card-title">Cloud Computing</h5>
+                    <p class="card-text">Learn cloud platforms like AWS, Azure, and Google Cloud.</p>
+                    <a href="#" class="btn btn-dark">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="card">
+                  <img src="/images/data.jpg" class="card-img-top" alt="Course 6">
+                  <div class="card-body">
+                    <h5 class="card-title">Data Science</h5>
+                    <p class="card-text">Become a data scientist with in-depth data analytics skills.</p>
+                    <a href="#" class="btn btn-dark">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Carousel Controls (Next and Prev Buttons) -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#coursesCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#coursesCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  
+<!-- About Us Section -->
+<section id="about-us" class="about-us-section py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left side: Content -->
+        <div class="col-lg-6">
+          <h2>Who We Are</h2>
+          <p>Workiy Academy is the leading Software Training Institute in Chennai which offers the latest and trending courses with a practical learning experience.</p>
+          <p>In addition to the core curriculum, Workiy often offers a range of support services to help students succeed. These may include mentorship programs, career services, and access to a network of alumni and industry professionals.</p>
+          <ul>
+            <li>Practical exposure through internships</li>
+            <li>Courses aligned with latest industry trends</li>
+            <li>Career services and placement assistance</li>
+          </ul>
+        </div>
+        <!-- Right side: Image -->
+        <div class="col-lg-6 text-center">
+          <img src="images/about us.jpg" class="img-fluid" alt="About Us Image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enquiry Section -->
+<section id="enquiry"nnnnn class="enquiry-section py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Enquiry Form</h2>
+      <form action="#" method="post" class="enquiry-form">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group mb-3">
+              <label for="email" class="form-label">Email ID</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+        <div class="form-group mb-3">
+          <label for="course" class="form-label">Course</label>
+          <select id="course" name="course" class="form-select" required>
+            <option value="">Course </option>
+            <option value="">MERN Stack</option>
+            <option value="">JAVA Stack</option>
+            <option value="">Mobile App Development</option>
+            <option value="">Python Stack</option>
+            <option value="">Cloud Computing</option>
+            <option value="">Data Science</option>
+
+          </select>
+        </div>
+        <div class="form-group mb-3">
+            <label for="course" class="form-label">Course mode</label>
+            <select id="course" name="course" class="form-select" required>
+              <option value="Select mode">Select Mode</option>
+              <option value="online">Online Mode</option>
+              <option value="offline">Offline Mode</option>
+            </select>
+          </div>
+          </div>
+          </div>
+        <div class="form-group mb-3">
+          <label for="contact" class="form-label">Contact Number</label>
+          <input type="tel" id="contact" name="contact" class="form-control" placeholder="Your Contact Number" required>
+        </div>
+        <div style="width: min-content ;align-items: center; margin-left: 48%;" class="text-center ">
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  
+  
+  <!-- Contact Section -->
+<section id="info-section" class="info-section py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Welcome to Workiy Academy</h2>
+      <p class="text-center">
+        Workiy Academy is the leading Software Training Institute in Chennai, offering the latest and trending courses with a practical learning experience. 
+        In addition to the core curriculum, Workiy often provides a range of support services to help students succeed, including mentorship programs, career 
+        services, and access to a network of alumni and industry professionals.
+      </p>
+      <div class="row text-center mt-5">
+    
+        <div class="col-md-4">
+          <i class="fas fa-map-marker-alt fa-2x"></i> <!-- Font Awesome Icon -->
+          <p>#6-183, Ottiyambakkam Road, Chennai - 126</p>
+        </div>
+    
+        <div class="col-md-4">
+          <i class="fas fa-phone fa-2x"></i> <!-- Font Awesome Icon -->
+          <p><a href="tel:+91 63833 27031">+91 63833 27031</a></p>
+        </div>
+    
+        <div class="col-md-4">
+          <i class="fas fa-envelope fa-2x"></i> <!-- Font Awesome Icon -->
+          <p><a href="mailto:shyamrameshk@gmail.com">shyamrameshk@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4 text-md-start text-center">
+          <p> <a href="mailto:shyamrameshk@gmail.com" class="text-white">shyamrameshk@gmail.com</a></p>
+          <p> <a href="tel:+916383327031" class="text-white">+91 63833 27031</a></p>
+        </div>
+  
+        <div class="col-md-4 text-center">
+          <p>&copy; 2024 Workiy Academy. All Rights Reserved.</p>
+        </div>
+  
+
+        <div class="col-md-4 text-md-end text-center">
+          <p>Address: <br>  Sithalapakkam, <br> Chennai, TN  600126</p>
+        </div>
+      </div>
+    </div>
+  </footer>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
